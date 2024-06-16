@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 2000px;
+}
+.page_header{
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    line-height: 100px;
+}
+.item{
+    background-color: #ccc;
+}
+.first{
+    font-size: 40px;
+    background-color:  aqua;
+    position: sticky;
+    top: 0;
+}
+
+.item{
+    position: absolute;
+
+    /* 横向充满 */
+    left: 0;
+    right: 0;
+    /* 纵向充满 */
+    top: 0;
+    bottom: 0;
+
+    /* 居中 */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: a;
+}

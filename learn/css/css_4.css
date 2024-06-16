@@ -1,0 +1,44 @@
+/* default */
+*{
+    margin: 0;
+    padding: 0;
+}
+.leftfix{
+    float: left;
+}
+.rightfix{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* my */
+.outer{
+    width: 500px;
+    height: 800px;
+    background-color: #ccc;
+    position: relative;
+    text-align: center;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+.item1{
+    background-color: red;
+}
+.item2{
+    background-color: blue;
+    position: absolute;
+}
+.item3{
+    background-color: yellow;
+}
+.outer:hover .item2{
+    visibility: hidden;
+    /* display: none; */
+}

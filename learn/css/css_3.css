@@ -1,0 +1,92 @@
+/* default */
+*{
+    margin: 0;
+    padding: 0;
+}
+.leftfix{
+    float: left;
+}
+.rightfix{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* container */
+.container{
+    margin: 0 auto;
+    width: 960px;
+    /* height: 1000px;
+    background-color: gray; */
+    text-align: center;
+}
+
+/* head */
+.logo,
+.banner2{
+    width: 200px;
+}
+.banner1{
+    width: 540px;
+    margin: 0 10px;
+}
+.logo,
+.banner1,
+.banner2{
+    height: 80px;
+    background-color: #ccc;
+    line-height: 80px;
+}
+
+/* menu */
+.menu{
+    height: 30px;
+    margin-top: 10px;
+    background-color: #ccc;
+    line-height: 30px;
+}
+
+/* content */
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9{
+    border: 1px solid;
+    line-height: 198px;
+}
+.item1,
+.item2{
+    width: 368px;
+    height: 198px;
+    margin: 10px 10px 10px 0;
+}
+.item3,
+.item4,
+.item5,
+.item6{
+    width: 178px;
+    height: 198px;
+    margin: 0 10px 10px 0;
+}
+.item7,
+.item8,
+.item9{
+    width: 198px;
+    height: 128px;
+    margin: 10px 0 10px 0;
+}
+
+/* foot */
+.foot{
+    height: 60px;
+    background-color: #ccc;
+    line-height: 60px;
+}

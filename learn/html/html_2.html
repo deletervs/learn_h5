@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H_L2</title>
+
+    <style>
+        /* 块居中 */
+        .outer1{
+            height: 400px;
+            width: 400px;
+            background-color: grey;
+            overflow: hidden;
+        }
+        .inner1{
+            height: 100px;
+            width: 200px;
+            background-color: orange;
+            /*水平*/
+            margin: 150px auto;
+            text-align: center;
+            /* 垂直 */
+            line-height: 100px;
+        }
+
+        /* 行居中 */
+        .outer2{
+            height: 400px;
+            width: 400px;
+            background-color: grey;
+            overflow: hidden;
+            /*水平*/
+            text-align: center;
+            /* 垂直 */
+            line-height: 400px;
+            font-size: 0;
+        }
+        .inner2{
+            font-size: 16px;
+            background-color: orange;
+            /*水平*/
+            vertical-align: middle;
+        }
+        img{
+            height: 50px;
+            width: 50px;            
+            /*水平*/
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 块居中 -->
+    <div class="outer1">
+        <p class="inner1">
+            xxx
+        </p>
+    </div>
+    
+    <hr>
+
+    <!-- 行内,行内块居中 -->
+    <div class="outer2">
+        <span class="inner2">xxx</span>
+        <img src="../../image/cbddl.png" alt="">
+    </div>
+</body>
+</html>
