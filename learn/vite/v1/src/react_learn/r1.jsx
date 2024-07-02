@@ -25,7 +25,7 @@ function Timer(){
 
     },[]);
 
-    //reset count
+    //reset countD
     useEffect(()=>{
         if(count<=0) setCount(5);
     },[count]);
